@@ -1,0 +1,12 @@
+namespace HANA_APP.db;
+
+/*@@layout{"layoutInfo":{"x":-227,"y":-116}}*/
+context test {
+
+    /*@@layout{"layoutInfo":{"x":-498,"y":-79.5}}*/
+    entity projects {
+            elem_1 : String(10);
+            elem_2 : String(10);
+        key elem_3 : String(10) not null;
+    };
+};
